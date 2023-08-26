@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="box" *ngFor="let item of items">
+        <div class="title">{{ item.title }}</div>
+        <table class="table">
+            <tr *ngFor="let feature of item.features">
+                <td class="checkmark">
+                    <div class="checkmark-icon">&#9745;</div>
+                </td>
+                <td class="feature-text">{{ feature }}</td>
+            </tr>
+        </table>
+        <a id="emailButton" href="mailto:arthur@vanloo.biz">Email</a>
+    </div>
+</div>

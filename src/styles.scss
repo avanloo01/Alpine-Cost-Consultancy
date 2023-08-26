@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background-color: #FFF3E5;
+}
+h1 {
+    font-family: 'Libre Bodoni', serif;
+    font-style: italic;
+    font-size: calc(100% + 5vw);
+    color: #7D82AC;
+}
+h2 {
+    font-family: 'Libre Bodoni', serif;
+    font-style: italic;
+    font-size: calc(100% + 2.5vw);
+    color: #7D82AC;
+    margin-bottom: 0.15em;
+    margin-top: 0.5em;
+}
+h3 {
+    font-family: 'Libre Bodini', serif;
+    color: #7D82AC;
+    font-size: calc(100% + 1em);
+    margin: 0.25em;
+    font-weight: bold;
+    font-style: italic;
+}
