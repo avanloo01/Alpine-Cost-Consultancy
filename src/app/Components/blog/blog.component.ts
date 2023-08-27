@@ -14,7 +14,7 @@ export class BlogComponent implements OnInit {
   constructor(private blogService: BlogService) { }
 
   ngOnInit(): void {
-    this.blogPosts = this.blogService.getBlogPosts();
+    this.blogPosts = this.blogService.getBlogPosts().reverse();
     this.updateDisplayedPosts();
   }
 
