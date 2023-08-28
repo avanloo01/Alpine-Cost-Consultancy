@@ -1,8 +1,0 @@
-<div class="blog">
-<h1>Alpine Blog</h1>
-<div *ngFor="let post of displayedPosts" class="postItem">
-    <a [routerLink]="['/blog', post.id]">{{ post.title}}</a>
-    {{post.date}}
-</div>
-<button *ngIf="remainingPosts.length > 0" (click)="loadMore()" id="loadButton">Show More</button>
-</div>
