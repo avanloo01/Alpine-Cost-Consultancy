@@ -8,12 +8,12 @@ import { Component } from '@angular/core';
 export class ContactComponent {
   items = [
     {
-      title: 'Small',
-      features: ['SMEs up to 50 FTEs', 'Free Consultation', 'Fee of 90 EUR/h'],
+      title: 'New',
+      features: ['New Customers', 'Free Consultation', 'Fee of 100 EUR/h'],
     },
     {
-      title: 'Medium',
-      features: ['SMEs up to 50 FTEs', 'Free Consultation', 'Fee of 125 EUR/h'],
+      title: 'Returning',
+      features: ['Returning Customers', 'Free Consultation', 'Fee of 50 EUR/h'],
     },
   ];
 }
