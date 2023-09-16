@@ -9,11 +9,11 @@ export class ContactComponent {
   items = [
     {
       title: 'New',
-      features: ['New Customers', 'Free Consultation', 'Fee of 100 EUR/h'],
+      features: ['New Customers', 'Free Consultation', '50 EUR Refund on Referral', '200 EUR'],
     },
     {
       title: 'Returning',
-      features: ['Returning Customers', 'Free Consultation', 'Fee of 50 EUR/h'],
+      features: ['Returning Customers', 'Free Consultation', '50 EUR Refund on Referral', '100 EUR'],
     },
   ];
 }
